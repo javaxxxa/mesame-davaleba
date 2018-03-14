@@ -1,0 +1,259 @@
+body {
+	padding: 30px;
+}
+
+nav { 
+	vertical-align: middle;
+	display: inline-block;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+
+}
+
+
+ul {
+    margin-left: 30px;
+}
+
+li {
+	transition: all .3s;
+   display: inline-block;
+   list-style: none;
+   margin-right: 30px;
+}
+
+.logo {
+	display: inline-block;
+	width: 100%;
+	max-width: 100px;
+	vertical-align: middle;		
+}
+
+.banner {
+    width: 100%;
+	max-width: 900px;
+	margin-top: 30px;
+}
+
+img {
+	width: 100%;
+	max-width:800px;
+}
+
+
+li:hover { 
+	font-size: 30px;
+}
+
+a {
+	display:inline-block;
+    color: #3D58A6; 
+    text-decoration: none;
+}
+
+.sec1 {
+	width: 100%;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+h2 {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.mobhand {
+	display: inline-block;
+    margin-top: 30px;
+    width: 49%;
+    background-color: silver
+
+} 
+.mobhand-h3 {
+	display: inline-block;
+    width: 100%;
+    padding: 20px;
+    color: #3D58A6;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.mobhand-img {
+	width: 30%;
+    max-width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+
+}
+
+.mobhand-p {
+	display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.mobhand-2 {
+	margin-left: 1%;
+}
+
+.soc {
+	width: 100%;
+	max-width: 30px;
+	height: 30px;
+	margin-top: 60px;
+}
+.ricxvi {
+	display: inline-block;
+    background-color:#3D58A6;
+    color: white;
+    border: 10px;
+    padding: 5px;
+    font-size: 45px;
+    margin-top:60px;
+}
+
+.tve {
+	color: #3D58A6;
+    font-size: 21px;
+    margin-top: 5px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+
+
+}
+.siaxle-img {
+	margin-top: 23px;
+    display: inline-block;
+    width: 100%;
+    max-width: 240px;
+    vertical-align: top;
+}
+.siaxle-h3 {
+	margin-top: 20px;
+	font-family: "BPG Nino Mtavruli", sans-serif;
+
+
+}
+.siaxle-p {
+	display: inline-block;
+    width: 100%;
+    max-width: 850px;
+    vertical-align: top;
+    margin-top: 23px;
+    margin-left: 15px;
+    font-family: "BPG Ingiri Arial", sans-serif;
+
+}
+.kontaktebi {
+	display: inline-block;
+	margin-top: 89px;
+	vertical-align: top;
+}
+.sak-info {
+	margin-top: 0;
+	color: #3D58A6;
+	font-family: "BPG Nino Mtavruli", sans-serif;
+
+}
+
+.p-info {
+	color: #808080;
+	margin-top: 15px;
+	font-family: "BPG Nino Mtavruli", sans-serif;
+
+}
+.map {
+	margin-top: 89px;
+	width: 100%;
+	max-width: 600px;
+	vertical-align: top;
+	margin-left: 15px;
+}
+span {
+	color: #000000;
+}
+@media only screen and (max-width: 900px) {
+	.siaxle-p {
+		margin-left: 0;
+	}
+
+	.map {
+		margin-left: 0;
+	}
+
+	nav {
+		display: block;
+	}
+
+	ul {
+		margin-top: 30px;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.siaxle-p {
+		margin-left: 0;
+	}
+
+	.map {
+		margin-left: 0;
+	}
+
+	.mobhand {
+		width: 100%;
+	}
+
+	nav {
+		display: block;
+	}
+
+    ul {
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.mobhand-2 {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.siaxle-p {
+		margin-left: 0;
+	}
+
+	.map {
+		margin-left: 0;
+	}
+
+	.mobhand {
+		width: 100%;
+	}
+
+	nav {
+		display: block;
+	}
+
+    ul {
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.mobhand-2 {
+		margin-left: 0;
+	}
+
+	li {
+		display: block;
+		margin-bottom: 10px;
+	} 
+}
+
+
+
+
